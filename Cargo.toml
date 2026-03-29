@@ -186,6 +186,9 @@ tracing-appender = "0.2"
 env_logger = "0.11"
 criterion = { version = "0.5", features = ["html_reports"] }
 
+[patch.crates-io]
+libsqlite3-sys = "=0.35.0"
+
 # 🔧 Optimization Profiles for Binary Size Reduction
 
 [profile.release]

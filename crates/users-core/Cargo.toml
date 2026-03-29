@@ -21,7 +21,7 @@ client = ["reqwest"]
 tokio = { workspace = true, features = ["full"] }
 
 # Database
-sqlx = { version = "0.8.2", features = ["runtime-tokio-rustls", "sqlite", "json", "chrono", "uuid"] }
+sqlx = { version = "0.8.6", features = ["runtime-tokio-rustls", "sqlite", "json", "chrono", "uuid"] }
 
 # Password hashing
 argon2 = "0.5"
@@ -46,7 +46,7 @@ thiserror = { workspace = true }
 async-trait = "0.1"
 
 # Web framework (for REST API)
-axum = { version = "0.8.2", features = ["http2", "json", "tokio", "macros"] }
+axum = { version = "0.8.6", features = ["http2", "json", "tokio", "macros"] }
 axum-server = { version = "0.6", features = ["tls-rustls"] }
 tower = { version = "0.5", features = ["full"] }
 tower-http = { version = "0.6", features = ["cors", "trace"] }

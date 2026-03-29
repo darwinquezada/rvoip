@@ -89,6 +89,6 @@ event-history = []
 persistence = ["sqlx"]
 
 [dependencies.sqlx]
-version = "0.8.2"
+version = "0.8.6"
 optional = true
 features = ["sqlite", "runtime-tokio"]

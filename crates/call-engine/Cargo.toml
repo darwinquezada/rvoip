@@ -25,7 +25,7 @@ rvoip-session-core.workspace = true
 
 # Database - Modern async approach with sqlx
 # Replace rusqlite/r2d2 with sqlx for true async support
-sqlx = { version = "0.8.2", features = [
+sqlx = { version = "0.8.6", features = [
     "runtime-tokio-rustls",
     "sqlite", 
     "chrono", 
